@@ -1,0 +1,32 @@
+{
+  "name": "zbra-vs-code-theme",
+  "displayName": "ZBRA Theme",
+  "description": "ZBRA Theme for VS Code",
+  "version": "0.0.1",
+  "icon": "zbra-logo.png",
+  "publisher": "zbra-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbra-solutions/vscode-theme"
+  },
+  "homepage": "https://zbra.dev",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ZBRA",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zbra-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "generate": "node generator.mjs"
+  },
+  "qna": false
+}
