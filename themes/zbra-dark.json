@@ -600,6 +600,13 @@
       "settings": {
         "foreground": "#eb30d5"
       }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#eb5630"
+      }
     }
   ]
 }

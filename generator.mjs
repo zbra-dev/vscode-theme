@@ -898,6 +898,13 @@ const json = JSON.stringify(
           foreground: zPink,
         },
       },
+      {
+        name: "HTML Tags",
+        scope: "entity.name.tag",
+        settings: {
+          foreground: zOrange,
+        },
+      },
     ],
   },
   null,
